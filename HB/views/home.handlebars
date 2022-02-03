@@ -1,0 +1,13 @@
+<span>Seu nome é {{user.name}} e você tem {{user.age}} anos.</span> </br>
+<span>Sua cor favoria é {{color}}</span> </br>
+
+{{#with user}}
+    <span>{{name}}</span></br>
+    <span>{{age}}</span></br>
+{{/with}}
+
+{{#if boolean}} <span>Teste</span> {{else}} <span>N foi teste</span> {{/if}}</br>
+
+{{#each itens}}
+<span>{{this}}</span></br>
+{{/each}}
